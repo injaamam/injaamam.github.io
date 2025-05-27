@@ -18,22 +18,46 @@
     <main>
       <section id="about">
         <h2>About Me</h2>
-        <p>
-          Hello! I'm Injamam, a passionate developer. Welcome to my portfolio
-          website.
-        </p>
+        <div class="about-flex">
+          <img
+            src="https://media.licdn.com/dms/image/v2/D5603AQEYShndXwfH7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726656144875?e=1753920000&v=beta&t=f1UGQrdzKccZBeRlkDCWA-VXnRo1GejyxumFHeeA5uI"
+            alt="Injamam's Avatar"
+            class="avatar"
+            style="
+              width: 120px;
+              height: 120px;
+              border-radius: 50%;
+              object-fit: cover;
+              margin-right: 2rem;
+            "
+          />
+          <div>
+            <p style="font-size: 1.2rem; line-height: 1.7; color: #555">
+              Hi! I'm <b>Injamam</b>, a passionate developer focused on building
+              impactful web applications. I love working with modern web
+              technologies and sharing my work with the world. Explore my latest
+              projects below!
+            </p>
+            <div style="margin-top: 1rem">
+              <a
+                href="https://github.com/injaamam"
+                target="_blank"
+                style="
+                  color: #6366f1;
+                  font-weight: 600;
+                  text-decoration: none;
+                  font-size: 1.1rem;
+                "
+                >View my GitHub &rarr;</a
+              >
+            </div>
+          </div>
+        </div>
       </section>
       <section id="projects">
         <h2>Projects</h2>
         <div class="project-list">
-          <div class="project">
-            <h3>Project One</h3>
-            <p>Short description of project one.</p>
-          </div>
-          <div class="project">
-            <h3>Project Two</h3>
-            <p>Short description of project two.</p>
-          </div>
+          <!-- GitHub projects will be loaded here by script.js -->
         </div>
       </section>
       <section id="contact">
